@@ -37,8 +37,9 @@ let life = document.getElementById("lives");
 
 demo.innerHTML = blanks;
 life.innerHTML = `lives : ${lives}`;
-function doHangman(){
-    let guess = document.getElementById("guess").value;
+function doHangman(clk){
+    document.getElementById(clk).disabled = true;
+    let guess = document.getElementById(clk).value;
     input = guess;
     if (!hasBlank(blanks) && haveLives()){
         alert("YOU WIN...")
@@ -75,8 +76,3 @@ function doHangman(){
         alert("GAME OVER!!!");
     }
 }
-
-
-
-// var str1 = document.getElementById("btn").value;
-// console.log(typeof(str1));

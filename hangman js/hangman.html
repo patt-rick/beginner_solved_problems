@@ -14,9 +14,45 @@
     <h2 id="lives"></h2>
     <h2>This is your word...</h2>
     <h1 id="blanks"></h1>
-    type in a single letter : <input type="text" id="guess">
-    <button type="button" onclick="doHangman();">submit value </button> 
-    <button id="btn" type="button" value=5>this</button>
+    <!-- type in a single letter : <input type="text" id="guess"> -->
+    <div class="keyboard">
+        <div class="top-row">
+            <button id="q" value="q" onclick="doHangman(this.id)">q</button>
+            <button id="w" value="w" onclick="doHangman(this.id)">w</button>
+            <button id="e" value="e" onclick="doHangman(this.id)">e</button>
+            <button id="r" value="r" onclick="doHangman(this.id)">r</button>
+            <button id="t" value="t" onclick="doHangman(this.id)">t</button>
+            <button id="y" value="y" onclick="doHangman(this.id)">y</button>
+            <button id="u" value="u" onclick="doHangman(this.id)">u</button>
+            <button id="i" value="i" onclick="doHangman(this.id)">i</button>
+            <button id="o" value="o" onclick="doHangman(this.id)">o</button>
+            <button id="p" value="p" onclick="doHangman(this.id)">p</button>
+        </div>
+        <br>
+        <div class="home-row">
+            <button id="a" value="a" onclick="doHangman(this.id)">a</button>
+            <button id="s" value="s" onclick="doHangman(this.id)">s</button>
+            <button id="d" value="d" onclick="doHangman(this.id)">d</button>
+            <button id="f" value="f" onclick="doHangman(this.id)">f</button>
+            <button id="g" value="g" onclick="doHangman(this.id)">g</button>
+            <button id="h" value="h" onclick="doHangman(this.id)">h</button>
+            <button id="j" value="j" onclick="doHangman(this.id)">j</button>
+            <button id="k" value="k" onclick="doHangman(this.id)">k</button>
+            <button id="l" value="l" onclick="doHangman(this.id)">l</button>
+        </div>
+        <br>
+        <div class="bottom-row">
+            <button id="z" value="z" onclick="doHangman(this.id)">z</button>
+            <button id="x" value="x" onclick="doHangman(this.id)">x</button>
+            <button id="c" value="c" onclick="doHangman(this.id)">c</button>
+            <button id="v" value="v" onclick="doHangman(this.id)">v</button>
+            <button id="b" value="b" onclick="doHangman(this.id)">b</button>
+            <button id="n" value="n" onclick="doHangman(this.id)">n</button>
+            <button id="m" value="m" onclick="doHangman(this.id)">m</button>
+        </div>
+        <br>
+    </div>
+ 
     <script src="hangmanjs.js"></script>
 </body>
 </html>
