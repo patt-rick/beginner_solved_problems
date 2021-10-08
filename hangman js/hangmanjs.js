@@ -73,6 +73,6 @@ function doHangman(clk){
         alert("YOU WIN...");
     }
     if(hasBlank(blanks) && !haveLives()){
-        alert("GAME OVER!!!");
+        alert(`GAME OVER!!!\n word is ${(word.toUpperCase())}`);
     }
 }
