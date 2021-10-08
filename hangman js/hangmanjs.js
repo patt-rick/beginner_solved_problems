@@ -36,7 +36,7 @@ let demo = document.getElementById("blanks");
 let life = document.getElementById("lives");
 
 demo.innerHTML = blanks;
-life.innerHTML = `lives : ${lives}`;
+life.innerHTML = `chances left : ${lives}`;
 function doHangman(clk){
     document.getElementById(clk).disabled = true;
     let guess = document.getElementById(clk).value;
@@ -56,7 +56,7 @@ function doHangman(clk){
                 lives--;
             }
             //console.log(`lives = ${lives} `);
-            life.innerHTML = `lives : ${lives}`;
+            life.innerHTML = `chances left : ${lives}`;
             for (var i=0;i<index.length;i++){
                 //console.log(index[i]);
                 let a = index[i];

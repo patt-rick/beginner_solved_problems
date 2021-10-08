@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    background: linear-gradient(#7c7cf8, #ffc0cb);
+}
+.heading{
+    font-weight: 600;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+}
+.chances{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+
+}
+#blanks{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 15px;  
+}
+.keyboard{
+    width: 80%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    /* border: 2px solid red; */
+    justify-content: center;
+}
+.top-row{
+    /* border: 2px solid blue; */
+    padding-left: 9px;
+}
+.home-row{
+    /* border: 2px solid blue; */
+    padding-left: 40px;
+}
+.bottom-row{
+    /* border: 2px solid blue; */
+    padding-left : 80px;
+}
+.top-row button{
+    width: 9%;
+    height: 20px;
+}
+.home-row button{
+    width: 9%;
+}
+.bottom-row button{
+    width: 9%;
+}
+.keyboard button{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    height: 50px;
+    /* box-shadow: 20px 20px 60px #bb6161, -3px -3px 5px #fff; */
+    font-size: 25px;
+    font-weight: bolder;
+
+}
